@@ -5,7 +5,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 ![Crawlers](https://img.shields.io/badge/Sites-36-brightgreen.svg)
 
-> 本仓库仅作为发布门面：只承载 README 与发布产物。**不公开源代码**；Issue / 反馈照常开放。源码仓库已转私有。
+> 本仓库仅作为发布门面：只承载 README 与发布产物。Issue / 反馈照常开放。
 
 <p align="center"><b>如果你觉得不错可否赏我杯奶茶费，谢谢！ 😊</b></p>
 
@@ -22,10 +22,6 @@
 MDCx-diy 是一个桌面工具，自动从 36 个网站抓取视频文件的元数据（标题、演员、封面、简介等），生成标准的 .nfo 文件和整理好的文件夹，给 Emby、Jellyfin、Kodi 这类媒体服务器直接用。
 
 一句话：把一堆乱七八糟的视频文件，变成媒体服务器能认的整齐资料库。
-
-## 快速安装
-
-产物发布与下载渠道另行公告。提示：GitHub Release 页面会由平台自动附带源码归档（tarball/zip），无法关闭；正式产物将评估迁移到外部对象存储分发。
 
 ## 贡献与提报
 
