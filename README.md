@@ -5,7 +5,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 ![Crawlers](https://img.shields.io/badge/Sites-36-brightgreen.svg)
 
-> 本仓库仅作为发布门面：只承载 README 与发布产物。Issue / 反馈照常开放。
+> 因为一些“自以为是”的小人，盗用本软件代码不说，还诋毁本仓库所用AI为人工智障，一点儿都不尊重并且在飞机群公开辱骂开发者。结果自己却还是要借助AI进行代码修改，改的也是些不痛不痒的ui界面（还是小众的windows原生界面，默认界面几无惠及）和旧有功能调整，毫无创意和创新可言，却美其名曰修正了BUG（盗用的本软件代码），就是个笑话。为捍卫本软件权利，被迫将源码进行隐藏，不再继续给小偷盗取机会，本仓库仅作为发布门面：只承载 README 与发布产物。Issue / 反馈照常开放。
 
 <p align="center"><b>如果你觉得不错可否赏我杯奶茶费，谢谢！ 😊</b></p>
 
