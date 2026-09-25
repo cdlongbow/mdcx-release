@@ -34,4 +34,4 @@ MDCx-diy 是一个桌面工具，自动从 36 个网站抓取视频文件的元�
 * [Hazard804/mdcx](https://github.com/Hazard804/mdcx) — 基于 sqzw-x/mdcx, 继续进行维护及优化
 * [ZiPenOk/mdcx](https://github.com/ZiPenOk/mdcx) — 基于 Hazard804/mdcx, 进行优化改进
 
-向相关开发者表示敬意！
+本项目在 GPLv3 框架下继承并感谢上述工作；向相关开发者表示敬意！
