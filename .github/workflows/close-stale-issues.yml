@@ -1,0 +1,23 @@
+name: Close Stale Issues
+
+# 用户反馈 Issue 集中在本发布门面仓，陈旧 Issue 治理也在此执行（源仓已去定时）。
+on:
+  schedule:
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+jobs:
+  stale:
+    permissions:
+      issues: write
+      pull-requests: write
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Stale Issues
+        uses: actions/stale@v11
+        with:
+          stale-issue-message: "此 issue 长时间未活跃，将自动关闭。如需继续讨论请重新打开。"
+          days-before-stale: 90
+          days-before-close: 7
+          exempt-issue-labels: "pinned,security"
+          exempt-pr-labels: "pinned,security"
