@@ -201,12 +201,9 @@ jobs:
           $File = Get-Item "${PACKAGE}.zip"
           Write-Host ("{0} - {1:N2} MB" -f $File.Name, ($File.Length / 1MB))
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v7
-        with:
-          name: trawl-portable-${{ steps.version.outputs.version }}-windows
-          path: trawl-portable-${{ steps.version.outputs.version }}-windows.zip
-          retention-days: 7
+      # 不做 upload-artifact：Actions artifact 不分公开/私有仓都计入账户共享存储池，
+      # GB 级便携包传一次就超免费额；且本 workflow 无 artifact 消费方——
+      # Release 步骤直接上传 workspace 里的 zip。需要中间产物排障时看 run 日志的体积行。
 
       - name: Create GitHub Release
         if: inputs.upload_to_releases
