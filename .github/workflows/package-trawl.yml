@@ -74,6 +74,9 @@ jobs:
             } else {
               Write-Host "[WARN] 补丁无法应用，使用原版"
             }
+            # 已处理的失败不得污染步骤退出码：Actions 的 pwsh 包装器收尾会
+            # exit $LASTEXITCODE，残留的 1 会把上面的优雅降级变成构建失败
+            $global:LASTEXITCODE = 0
           }
 
       - name: Install Dependencies
