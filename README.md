@@ -5,7 +5,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20macOS%20%7C%20Linux-lightgrey.svg)
 ![Crawlers](https://img.shields.io/badge/Sites-37-brightgreen.svg)
 
-> 2026 年 9 月起，本项目的日常开发转入私有仓库进行；本仓库作为官方发布门面，持续提供正式发布（Releases）、变更说明与 Issue 反馈。此前个别第三方项目在本软件代码基础上分发修改版时未保留版权声明与上游出处，并伴随针对维护者的不实宣传，相关事实我方已留存证据，保留依法追索的权利。
+> 2026 年 9 月起，本项目的日常开发转入私有仓库进行；本仓库作为官方发布门面，持续提供正式发布（Releases）、Issue 反馈。此前个别第三方项目在本软件代码基础上分发修改版时未保留版权声明与上游出处，并伴随针对维护者的不实宣传，相关事实我方已留存证据，保留依法追索的权利。
 
 ## GPLv3 与对应源码
 
